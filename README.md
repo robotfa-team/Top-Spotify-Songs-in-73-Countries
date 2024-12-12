@@ -38,8 +38,9 @@ Compare the top songs in various countries to highlight differences in musical t
 
 ### Steps to Get Started
 
+
 1. **Sign Up on RapidAPI**
-   - Visit [RapidAPI]([https://rapidapi.com](https://rapidapi.com/robotfa-robotfa-default/api/top-spotify-songs-in-73-countries]) and create an account if you don’t already have one.
+   - Visit [RapidAPI]([https://rapidapi.com/robotfa-robotfa-default/api/top-spotify-songs-in-73-countries]) and create an account if you don’t already have one.
 
 2. **Subscribe to the API**
    - Search for the "Top Spotify Songs in 73 Countries" API and subscribe to it.

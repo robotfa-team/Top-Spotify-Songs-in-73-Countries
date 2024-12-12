@@ -39,7 +39,7 @@ Compare the top songs in various countries to highlight differences in musical t
 ### Steps to Get Started
 
 1. **Sign Up on RapidAPI**
-   - Visit [RapidAPI](https://rapidapi.com) and create an account if you don’t already have one.
+   - Visit [RapidAPI]([https://rapidapi.com](https://rapidapi.com/robotfa-robotfa-default/api/top-spotify-songs-in-73-countries)) and create an account if you don’t already have one.
 
 2. **Subscribe to the API**
    - Search for the "Top Spotify Songs in 73 Countries" API and subscribe to it.
@@ -50,32 +50,21 @@ Compare the top songs in various countries to highlight differences in musical t
 4. **Integrate the API**
    - Use the token to authenticate your requests. Here’s a basic example in cURL:
      ```bash
-     curl -X GET "https://api.rapidapi.com/spotify-top-songs" \
+     curl -X GET "https://top-spotify-songs-in-73-countries.p.rapidapi.com/list" \
      -H "X-RapidAPI-Key: YOUR_API_KEY" \
-     -H "X-RapidAPI-Host: api.rapidapi.com"
+     -H "X-RapidAPI-Host: top-spotify-songs-in-73-countries.p.rapidapi.com"
      ```
 
 ---
 
 ## Example Endpoints
 
-### 1. Get Top Songs by Country
-Retrieve the top songs for a specific country:
+### 1. Search Songs
+Retrieve  songs with many filters:
 ```bash
-GET /top-songs/{country}
+GET /list
 ```
 
-### 2. Get Song Attributes
-Access detailed song attributes for analysis:
-```bash
-GET /song-attributes/{track_id}
-```
-
-### 3. Historical Data
-Analyze ranking changes over time:
-```bash
-GET /historical-data/{country}
-```
 
 ---
 
